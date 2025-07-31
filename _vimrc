@@ -1,13 +1,11 @@
 call plug#begin('~/.vim/plugged')
 Plug 'prabirshrestha/vim-lsp'
-Plug 'mattn/vim-lsp-settings'
 Plug 'sheerun/vim-polyglot'
 Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'preservim/nerdtree'
 Plug 'LuaLS/lua-language-server'
-Plug 'ycm-core/YouCompleteMe', { 'do': './install.py --all' }
 call plug#end()
 
 syntax on
